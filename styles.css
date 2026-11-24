@@ -102,6 +102,12 @@ nav a:hover, nav a[aria-current="page"] { color: #fff; }
   color: #fff;
   border: 1px solid var(--slate-3);
 }
+.btn-outline {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--line);
+}
+.btn-outline:hover { border-color: var(--accent); color: var(--accent-dark); }
 .btn-ghost span { color: #94A3B8; font-weight: 400; }
 
 /* Sections */
